@@ -114,3 +114,7 @@ body footer {
 .thin-code pre {
   margin: 0;
 }
+
+.pre pre {
+  margin: 0;
+}

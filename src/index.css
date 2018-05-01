@@ -1,5 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body .default-slide .title {
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
 }

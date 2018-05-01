@@ -93,7 +93,7 @@ class App extends Component {
         </Slide>
         <Slide className='central'>
           <div>
-            <h3 className='central'>ARIA Authoring Practices</h3>
+            <h3 className='title medium central'>ARIA Authoring Practices</h3>
             <p>Guideline to how you should approach developing widgets</p>
             <ul>
               <li>When/how to use a widget</li>
@@ -181,7 +181,7 @@ class App extends Component {
           <div>
             <h3 className='title medium'>Live regions are awesome!</h3>
             <ul>
-              <li>provide a completely customized screen reader announcement without having to move focus!</li>
+              <li>Provide a completely customized screen reader announcement without having to move focus!</li>
               <li>Great for real-time updates in remote parts of the page, status updates, and time-sensitive information.</li>
             </ul>
           </div>
@@ -253,7 +253,7 @@ class App extends Component {
             </ul>
           </div>
         </Slide>
-        <Slide className='central'>
+        <Slide className='central pre'>
           <div>
             <h3 className='title medium code-head'>aria-relevant</h3>
             <p>Tells screen readers what modifications should trigger notifications</p>
@@ -645,8 +645,8 @@ import DragonDrop from 'drag-on-drop';
         <Slide className='central'>
           <div>
             <h2 className='title large'>Thanks!</h2>
-            <h3 className='title medium'>Harris Schneiderman</h3>
             <img width='250' src={bruce2} alt='' />
+            <h3 className='title medium'>Harris Schneiderman</h3>
             <div>
               <a
                 href='https://twitter.com/theHarrisius'
